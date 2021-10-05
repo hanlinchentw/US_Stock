@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - Charts
+  - MBProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - MBProgressHUD
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: b91c20bb6ebbaa00fde4c3569d587b367b239325
+
+COCOAPODS: 1.9.1
