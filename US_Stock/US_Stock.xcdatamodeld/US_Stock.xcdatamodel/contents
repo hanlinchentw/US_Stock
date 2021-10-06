@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DailySeries" representedClassName="DailySeries" syncable="YES" codeGenerationType="class">
+        <attribute name="close" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="high" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="low" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="open" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="belongStock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SavedStock" inverseName="dailySeries" inverseEntity="SavedStock"/>
+    </entity>
+    <entity name="IntraSeries" representedClassName="IntraSeries" syncable="YES" codeGenerationType="class">
+        <attribute name="close" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="high" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="low" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="open" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="volumn" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="belongStock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SavedStock" inverseName="timeSeries" inverseEntity="SavedStock"/>
+    </entity>
+    <entity name="SavedStock" representedClassName="SavedStock" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="dailySeries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DailySeries" inverseName="belongStock" inverseEntity="DailySeries"/>
+        <relationship name="timeSeries" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="IntraSeries" inverseName="belongStock" inverseEntity="IntraSeries"/>
+    </entity>
+    <elements>
+        <element name="DailySeries" positionX="-54" positionY="54" width="128" height="119"/>
+        <element name="IntraSeries" positionX="-63" positionY="18" width="128" height="134"/>
+        <element name="SavedStock" positionX="-63" positionY="-18" width="128" height="104"/>
+    </elements>
+</model>
