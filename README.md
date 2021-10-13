@@ -29,7 +29,7 @@
 這個project是模仿蘋果原生的看盤程式Stocks，是我用來練習Combine跟加強寫出乾淨程式碼的能力
 
 圖表的部分我是使用 iOS Charts，所有的資料都是由ALPHA VANTAGE API提供，網路層使用原生的URLSession，搭配Combine對各個事件分別處理，
-使用者可以儲存自己想看的標的，我建立了core data service 這個類別，專門處理儲存的標的資料。
+使用者可以儲存自己想看的標的，我建立了core data service 這個類別，專門處理儲存標的資料。
 
 ### Built With
 
