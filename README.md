@@ -56,16 +56,16 @@
 <!-- Usage -->
 ## Usage 
 ### Stock Detail
-![image](https://github.com/hanlinchentw/US_Stocks/blob/main/Stock_Detail.png)
+![image](https://github.com/hanlinchentw/US_Stock/blob/main/Stock_Detail.png)
 ![image](https://github.com/hanlinchentw/US_Stock/blob/main/Stock_Chart_demo.gif)
 
 ### List
-![image](https://github.com/hanlinchentw/US_Stocks/blob/main/Stock_List.png)
-![image](https://github.com/hanlinchentw/US_Stocks/blob/main/Stock_add.png)
-![image](https://github.com/hanlinchentw/US_Stocks/blob/main/Stock_delete.png)
+![image](https://github.com/hanlinchentw/US_Stock/blob/main/Stock_List.png)
+![image](https://github.com/hanlinchentw/US_Stock/blob/main/Stock_add.png)
+![image](https://github.com/hanlinchentw/US_Stock/blob/main/Stock_delete.png)
 
 ### Demo
-![image](https://github.com/hanlinchentw/US_Stocks/blob/main/Stock%20Gif.gif)
+![image](https://github.com/hanlinchentw/US_Stock/blob/main/Stock%20Gif.gif)
 
 <!-- CONTACT -->
 ## Contact
