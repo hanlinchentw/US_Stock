@@ -44,11 +44,15 @@
 
 ### Installation
 
-Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/hanlinchentw/Stocks.git
    ```
-   
+2. Open Terminal 
+```sh
+   pod init
+   pod install
+   ```
 <!-- Usage -->
 ## Usage 
 ### Stock Detail
